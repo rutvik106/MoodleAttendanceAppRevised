@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primaryColor">#FF9800</color>
+    
+    <color name="primaryColorDark">#F57C00</color>
+
+    <color name="primaryColorDark2">#EF6C00</color>
+
+    <color name="primaryColorLight">#FFB74D</color>
+
+    <color name="primaryColorLight2">#FFCC80</color>
+
+    <color name="accentColor">#03A9F4</color>
+
+    <color name="loginBackground">#FFFFFF</color>
+
+    <color name="mdtp_accent_color">@color/primaryColor</color>
+    <color name="mdtp_accent_color_dark">@color/primaryColorDark</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    
+
+
+</resources>

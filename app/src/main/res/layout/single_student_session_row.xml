@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvAttendanceTypeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Session Date"
+        android:layout_marginTop="3dp"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvTotalSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvAttendanceTypeName"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Description"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/primaryColorLight2" />
+
+    <ImageView
+        android:id="@+id/imgNextArrow2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tvAttendanceTypeName"
+        android:layout_weight="1"
+        android:paddingRight="-10dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="Next Arrow image view"
+        android:src="@drawable/right_arrow_128" />
+
+</RelativeLayout>
+
+
+    

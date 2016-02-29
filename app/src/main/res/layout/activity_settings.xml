@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primaryColor"
+    tools:context="com.rutvik.moodleattendanceapp.SettingsActivity" >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <CheckBox
+        android:id="@+id/chk_showStudentFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show student full name"
+        android:buttonTint="@color/primaryColorDark2"
+        android:theme="@style/MyCheckBox"
+        android:textColor="#fff" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primaryColorLight" />
+
+    <CheckBox
+        android:id="@+id/chk_toggleIdAsPrefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/primaryColorDark2"
+        android:textColor="#fff"
+        android:theme="@style/MyCheckBox"
+        android:text="Use ID as prefix for student names" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primaryColorLight" />
+    
+    <CheckBox
+        android:id="@+id/chk_toggleSortStudentByName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:buttonTint="@color/primaryColorDark2"
+        android:theme="@style/MyCheckBox"
+        android:text="Sort students by name" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primaryColorLight" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Color for Acronym"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/lvSettingsAttributes"
+            android:background="@color/primaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/primaryColorLight"
+            android:dividerHeight="0dp" >
+        </ListView>
+
+</LinearLayout>

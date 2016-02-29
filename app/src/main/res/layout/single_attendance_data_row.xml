@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llAttendanceDataRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStudentFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        android:text="Medium Text"
+        android:paddingLeft="3dp"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+
+        >
+
+        <RadioGroup
+            android:id="@+id/rgAttendanceStatus"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/primaryColor"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false">
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

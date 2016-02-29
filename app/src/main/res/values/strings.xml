@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moodle Attendance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_course">UserCourseActivity</string>
+    <string name="title_activity_course_attendance">CourseAttendanceActivity</string>
+    <string name="title_activity_show_session">ShowSessionActivity</string>
+    <string name="title_activity_session">SessionActivity</string>
+    <string name="title_activity_fill_attendance">FillAttendanceActivity</string>
+    <string name="title_activity_student_attendance">StudentAttendanceActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_info_settings">InfoSettingsActivity</string>
+    <string name="title_activity_add_session">AddSession</string>
+    <string name="title_activity_add_new_session">AddNewSession</string>
+
+    <string name="about">Moodle Attendance is a customized Android  App for managing attendance of students online on moblie phones.\n\nRequirments: Moodle Host with Mobile weservice enabled and <a href="https://moodle.org/plugins/view/mod_attendance">Attendance Plugin</a> installed\n\nAdditional Requirment: Moodle <a href="https://github.com/rutvik106/moodle_android_app/tree/master/webservice">Attendance webservice</a> installed.\n\nTaking all the feedback into consideration, the makers are trying to improve the app as per the requirements.\n\n<a href="https://goo.gl/SZTct1">see our more apps</a></string>
+
+
+    <string name="default_response_text">{"error":{"messa ge":"Cannot Connect","comment":"Not Connected"}}</string>
+
+</resources>
